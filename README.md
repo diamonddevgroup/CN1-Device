@@ -5,7 +5,7 @@ On many popular devices, the market name of the device is not available.
 For example, on the Samsung Galaxy S7 the value of [`Build.MODEL`] may be any of `"SAMSUNG-SM-G930A"`, `"SM-G930F"`, `"SM-G930K"`, `"SM-G930L"`, etc.
 Apple devices are mostly recognized by their machine name... `"iPhone 8 Plus"` is `"iPhone10,2"`, and `"iPad Pro 9.7-inch (WiFi+Cellular)"` is `"iPad6,4"`, etc.
 
-This library is useful for providing technical support for a particular device or adding some rules, e.g extra bottom-padding on iPhone X because of the on-screen Home Bar icon layered over the App and blocking an underlined contents.
+This library is useful for providing technical support for a particular device or adding some rules, e.g extra bottom-padding on iPhone X because of the on-screen Home Bar icon layered over the App and blocking the underlined content.
 
 The android device list is based on the Google maintained list of about 20,000 supported devices found [here][1]. We will keep the library up-to-date.
 
