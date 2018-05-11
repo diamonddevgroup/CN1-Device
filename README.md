@@ -22,7 +22,7 @@ Installation
 JavaDoc
 =======
 
-View the project JavaDoc [here][2].
+View the project JavaDoc [here][3].
 
 
 Usage example
