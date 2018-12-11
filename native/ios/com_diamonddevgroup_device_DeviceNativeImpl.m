@@ -33,6 +33,10 @@ NSString * const iPhone10_3 = @"iPhone10,3";
 NSString * const iPhone10_4 = @"iPhone10,4";
 NSString * const iPhone10_5 = @"iPhone10,5";
 NSString * const iPhone10_6 = @"iPhone10,6";
+NSString * const iPhone11_2 = @"iPhone11,2";
+NSString * const iPhone11_4 = @"iPhone11,4";
+NSString * const iPhone11_6 = @"iPhone11,6";
+NSString * const iPhone11_8 = @"iPhone11,8";
 
 NSString * const iPod1_1 = @"iPod1,1";
 NSString * const iPod2_1 = @"iPod2,1";
@@ -80,6 +84,16 @@ NSString * const iPad7_1 = @"iPad7,1";
 NSString * const iPad7_2 = @"iPad7,2";
 NSString * const iPad7_3 = @"iPad7,3";
 NSString * const iPad7_4 = @"iPad7,4";
+NSString * const iPad7_5 = @"iPad7,5";
+NSString * const iPad7_6 = @"iPad7,6";
+NSString * const iPad8_1 = @"iPad8,1";
+NSString * const iPad8_2 = @"iPad8,2";
+NSString * const iPad8_3 = @"iPad8,3";
+NSString * const iPad8_4 = @"iPad8,4";
+NSString * const iPad8_5 = @"iPad8,5";
+NSString * const iPad8_6 = @"iPad8,6";
+NSString * const iPad8_7 = @"iPad8,7";
+NSString * const iPad8_8 = @"iPad8,8";
 
 NSString * const AppleTV1_1 = @"AppleTV1,1";
 NSString * const AppleTV2_1 = @"AppleTV2,1";
@@ -93,7 +107,14 @@ NSString * const Watch2_3 = @"Watch2,3";
 NSString * const Watch2_4 = @"Watch2,4";
 NSString * const Watch2_6 = @"Watch2,6";
 NSString * const Watch2_7 = @"Watch2,7";
-
+NSString * const Watch3_1 = @"Watch3,1";
+NSString * const Watch3_2 = @"Watch3,2";
+NSString * const Watch3_3 = @"Watch3,3";
+NSString * const Watch3_4 = @"Watch3,4";
+NSString * const Watch4_1 = @"Watch4,1";
+NSString * const Watch4_2 = @"Watch4,2";
+NSString * const Watch4_3 = @"Watch4,3";
+NSString * const Watch4_4 = @"Watch4,4";
 
 NSString * const i386_Sim = @"i386";
 NSString * const x86_64_Sim = @"x86_64";

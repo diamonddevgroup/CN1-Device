@@ -198,6 +198,34 @@
             <key>name</key>
             <string>iPhone X (Global)</string>
         </dict>
+        <key>iPhone11,2</key>
+        <dict>
+            <key>version</key>
+            <real>11.2</real>
+            <key>name</key>
+            <string>iPhone XS</string>
+        </dict>
+        <key>iPhone11,4</key>
+        <dict>
+            <key>version</key>
+            <real>11.4</real>
+            <key>name</key>
+            <string>iPhone XS Max</string>
+        </dict>
+        <key>iPhone11,6</key>
+        <dict>
+            <key>version</key>
+            <real>11.6</real>
+            <key>name</key>
+            <string>iPhone XS Max (China/Japan)</string>
+        </dict>
+        <key>iPhone11,8</key>
+        <dict>
+            <key>version</key>
+            <real>11.8</real>
+            <key>name</key>
+            <string>iPhone XR</string>
+        </dict>
         <key>iPod1,1</key>
         <dict>
             <key>version</key>
@@ -506,6 +534,76 @@
             <key>name</key>
             <string>iPad Pro 10.5-Inch (WiFi/Cellular)</string>
         </dict>
+        <key>iPad7,5</key>
+        <dict>
+            <key>version</key>
+            <real>7.5</real>
+            <key>name</key>
+            <string>iPad 9.7-Inch 6th Gen (WiFi Only)</string>
+        </dict>
+        <key>iPad7,6</key>
+        <dict>
+            <key>version</key>
+            <real>7.6</real>
+            <key>name</key>
+            <string>iPad 9.7-Inch 6th Gen (WiFi/Cellular)</string>
+        </dict>
+        <key>iPad8,1</key>
+        <dict>
+            <key>version</key>
+            <real>8.1</real>
+            <key>name</key>
+            <string>iPad Pro 11-Inch (WiFi Only)</string>
+        </dict>
+        <key>iPad8,2</key>
+        <dict>
+            <key>version</key>
+            <real>8.2</real>
+            <key>name</key>
+            <string>iPad Pro 11-Inch 1TB (WiFi Only)</string>
+        </dict>
+        <key>iPad8,3</key>
+        <dict>
+            <key>version</key>
+            <real>8.3</real>
+            <key>name</key>
+            <string>iPad Pro 11-Inch (WiFi/Cellular)</string>
+        </dict>
+        <key>iPad8,4</key>
+        <dict>
+            <key>version</key>
+            <real>8.4</real>
+            <key>name</key>
+            <string>iPad Pro 11-Inch 1TB (WiFi/Cellular)</string>
+        </dict>
+        <key>iPad8,5</key>
+        <dict>
+            <key>version</key>
+            <real>8.5</real>
+            <key>name</key>
+            <string>iPad Pro 12.9-Inch (WiFi Only - 3rd Gen)</string>
+        </dict>
+        <key>iPad8,6</key>
+        <dict>
+            <key>version</key>
+            <real>8.6</real>
+            <key>name</key>
+            <string>iPad Pro 12.9-Inch 1TB (WiFi Only - 3rd Gen)</string>
+        </dict>
+        <key>iPad8,7</key>
+        <dict>
+            <key>version</key>
+            <real>8.7</real>
+            <key>name</key>
+            <string>iPad Pro 12.9-Inch (WiFi/Cell - 3rd Gen)</string>
+        </dict>
+        <key>iPad8,8</key>
+        <dict>
+            <key>version</key>
+            <real>8.8</real>
+            <key>name</key>
+            <string>iPad Pro 12.9-Inch 1TB (WiFi/Cell - 3rd Gen)</string>
+        </dict>
         <key>appleTV1,1</key>
         <dict>
             <key>version</key>
@@ -582,6 +680,62 @@
             <real>2.7</real>
             <key>name</key>
             <string>Apple Watch Series 1 (42 mm)</string>
+        </dict>
+        <key>Watch3,1</key>
+        <dict>
+            <key>version</key>
+            <real>3.1</real>
+            <key>name</key>
+            <string>Apple Watch Series 3 (38 mm/Cellular)</string>
+        </dict>
+        <key>Watch3,2</key>
+        <dict>
+            <key>version</key>
+            <real>3.2</real>
+            <key>name</key>
+            <string>Apple Watch Series 3 (42 mm/Cellular)</string>
+        </dict>
+        <key>Watch3,3</key>
+        <dict>
+            <key>version</key>
+            <real>3.3</real>
+            <key>name</key>
+            <string>Apple Watch Series 3 (38 mm)</string>
+        </dict>
+        <key>Watch3,4</key>
+        <dict>
+            <key>version</key>
+            <real>3.4</real>
+            <key>name</key>
+            <string>Apple Watch Series 3 (42 mm)</string>
+        </dict>
+        <key>Watch4,1</key>
+        <dict>
+            <key>version</key>
+            <real>4.1</real>
+            <key>name</key>
+            <string>Apple Watch Series 4 (40 mm)</string>
+        </dict>
+        <key>Watch4,2</key>
+        <dict>
+            <key>version</key>
+            <real>4.1</real>
+            <key>name</key>
+            <string>Apple Watch Series 4 (44 mm)</string>
+        </dict>
+        <key>Watch4,3</key>
+        <dict>
+            <key>version</key>
+            <real>4.1</real>
+            <key>name</key>
+            <string>Apple Watch Series 4 (40 mm/Cellular)</string>
+        </dict>
+        <key>Watch4,4</key>
+        <dict>
+            <key>version</key>
+            <real>4.1</real>
+            <key>name</key>
+            <string>Apple Watch Series 4 (42 mm/Cellular)</string>
         </dict>
         <key>i386</key>
         <dict>
