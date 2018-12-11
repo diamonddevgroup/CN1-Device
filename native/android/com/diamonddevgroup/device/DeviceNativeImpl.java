@@ -17,7 +17,7 @@ public class DeviceNativeImpl {
     private static String name;
     private static String model;
 
-    // Currently 19452 Devices
+    // Currently 22220 Devices
     private static final String FILE_NAME = "supported_devices.csv";
 
     private static String getDeviceInfo(String returnType) {
