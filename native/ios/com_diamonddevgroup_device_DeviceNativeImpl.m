@@ -184,9 +184,9 @@ NSString * const x86_64_Sim = @"x86_64";
 
     NSDictionary* deviceList = [self getDeviceList];
     NSString* model = [[deviceList objectForKey : hardware] objectForKey : @"name"];
-
+    
     if (model) {
-        return model;
+        return ([model isEqualToString:@"Simulator"])? [NSProcessInfo processInfo].environment[@"SIMULATOR_DEVICE_NAME"] : model;
     } else {
         return @"Unknown";
     }
