@@ -68,4 +68,16 @@ public class Device {
         }
         return "";
     }
+    
+    /**
+     * Check if device is notch. e.g "iPhone X has one"
+     *
+     * @return true if device is notch.
+     */
+    public static boolean isNotch() {
+        if (isSupported()) {
+            return get().isNotch();
+        }
+        return false;
+    }
 }

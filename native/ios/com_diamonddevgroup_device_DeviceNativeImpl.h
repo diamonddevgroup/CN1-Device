@@ -271,5 +271,6 @@ extern NSString* const x86_64_Simulator;
 -(NSString*) name;
 -(NSString*) model;
 -(NSString*) manufacturer;
+-(BOOL) isNotch;
 -(BOOL) isSupported;
 @end

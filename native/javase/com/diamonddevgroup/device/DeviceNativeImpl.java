@@ -13,6 +13,10 @@ public class DeviceNativeImpl implements com.diamonddevgroup.device.DeviceNative
         return null;
     }
 
+    public boolean isNotch() {
+        return false;
+    }
+
     public boolean isSupported() {
         return false;
     }

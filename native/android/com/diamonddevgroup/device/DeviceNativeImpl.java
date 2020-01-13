@@ -125,6 +125,15 @@ public class DeviceNativeImpl {
         return getDeviceInfo("model");
     }
 
+    /**
+     * Check if device is notch. e.g "iPhone X has one"
+     *
+     * @return true if device is notch.
+     */
+    public boolean isNotch() {
+        return false;
+    }
+
     public boolean isSupported() {
         return true;
     }

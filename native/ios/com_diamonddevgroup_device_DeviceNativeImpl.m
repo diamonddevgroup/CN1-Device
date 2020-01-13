@@ -1,5 +1,6 @@
 #import "com_diamonddevgroup_device_DeviceNativeImpl.h"
 #include <sys/sysctl.h>
+#import <sys/utsname.h>
 
 /**
  * Hardware string of devices
@@ -203,6 +204,21 @@ NSString* const x86_64_Simulator = @"x86_64";
     } else {
         return @"Unknown";
     }
+}
+
+-(BOOL) isNotch(void)
+{
+    NSString* hardware = [self hardwareString];
+
+    return [hardware isEqualToString:@"iPhone10,3"] || 
+           [hardware isEqualToString:@"iPhone10,6"] || 
+           [hardware isEqualToString:@"iPhone11,2"] || 
+           [hardware isEqualToString:@"iPhone11,4"] || 
+           [hardware isEqualToString:@"iPhone11,6"] || 
+           [hardware isEqualToString:@"iPhone11,8"] || 
+           [hardware isEqualToString:@"iPhone12,1"] || 
+           [hardware isEqualToString:@"iPhone12,3"] || 
+           [hardware isEqualToString:@"iPhone12,5"];
 }
 
 -(BOOL) isSupported {

@@ -13,4 +13,6 @@ public interface DeviceNative extends NativeInterface {
     public String name();
 
     public String model();
+    
+    public boolean isNotch();
 }
