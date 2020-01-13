@@ -42,6 +42,10 @@ Get the **manufacturer** of the current device (e.g Apple Inc.):
  
      String manufacturer = Device.getManufacturer();
 
+Check if device **isNotch** (mainly for newer iPhones). E.g "iPhone X will return `true` while iPhone 8 will return `false`"
+
+     boolean isNotch = Device.isNotch();
+
 
 Contribution
 ============
