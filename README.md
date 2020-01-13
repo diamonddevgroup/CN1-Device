@@ -7,7 +7,7 @@ Apple devices are mostly recognized by their machine name... `"iPhone 8 Plus"` i
 
 This library is useful for providing technical support for a particular device or adding some rules, e.g extra bottom-padding on iPhone X because of the on-screen Home Bar icon layered over the App and blocking the underlined content.
 
-The android device list is based on the Google maintained list of about 20,000 supported devices found [here][1]. We will keep the library up-to-date.
+The android device list is based on the Google maintained list of about 27,000 supported devices found [here][1]. We will keep the library up-to-date.
 
 Installation
 ============
