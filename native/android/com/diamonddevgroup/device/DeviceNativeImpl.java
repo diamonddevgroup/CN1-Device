@@ -126,9 +126,9 @@ public class DeviceNativeImpl {
     }
 
     /**
-     * Check if device is notch. e.g "iPhone X has one"
+     * Check if device has a notch. e.g "iPhone X has one"
      *
-     * @return true if device is notch.
+     * @return true if device has a notch.
      */
     public boolean isNotch() {
         return false;
