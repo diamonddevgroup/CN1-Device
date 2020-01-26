@@ -296,7 +296,6 @@
             <key>name</key>
             <string>iPod Touch (7 Gen)</string>
         </dict>
-	    <key>iPad1,1</key>
         <key>iPad1,1</key>
         <dict>
             <key>version</key>
