@@ -206,7 +206,7 @@ NSString* const x86_64_Simulator = @"x86_64";
     }
 }
 
--(BOOL) isNotch(void)
+-(BOOL) isNotch
 {
     NSString* hardware = [self hardwareString];
 
