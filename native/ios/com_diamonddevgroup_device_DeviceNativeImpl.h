@@ -130,7 +130,7 @@ typedef NS_ENUM(NSUInteger, Hardware) {
     IPOD_TOUCH_6G,
     IPOD_TOUCH_7G,
 
-    SIMULATOR
+    SIMULATOR,
 
     HARDWARE_MAX
 };
