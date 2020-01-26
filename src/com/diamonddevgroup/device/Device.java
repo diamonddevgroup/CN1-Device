@@ -4,7 +4,7 @@ import com.codename1.system.NativeLookup;
 
 /**
  * This is an API to get the consumer friendly name, model, and manufacturer of
- * a device
+ * a device. It also checks if device has a notch.
  *
  * @author Diamond
  */
@@ -67,5 +67,17 @@ public class Device {
             return get().model();
         }
         return "";
+    }
+    
+    /**
+     * Check if device has a notch. e.g "iPhone X has one"
+     *
+     * @return true if device has a notch.
+     */
+    public static boolean isNotch() {
+        if (isSupported()) {
+            return get().isNotch();
+        }
+        return false;
     }
 }

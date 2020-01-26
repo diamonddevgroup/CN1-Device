@@ -14,6 +14,10 @@ var o = {};
         callback.error(new Error("Not implemented yet"));
     };
 
+    o.isNotch_ = function(callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
     o.isSupported_ = function(callback) {
         callback.complete(false);
     };
