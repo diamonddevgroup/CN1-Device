@@ -13,12 +13,12 @@ import java.io.InputStreamReader;
  */
 public class DeviceNativeImpl {
 
-    private static String manufacturer;
-    private static String name;
-    private static String model;
+    private static String manufacturer; // row 0
+    private static String name; // row 1
+    private static String model; // row 2
 
-    // Currently 22220 Devices
-    private static final String FILE_NAME = "supported_devices.csv";
+    // Currently 18,912 Devices
+    private static final String FILE_NAME = "devices.csv";
 
     private static String getDeviceInfo(String returnType) {
         return getDeviceInfo(returnType, Build.DEVICE, Build.MODEL, capitalize(Build.MODEL));
@@ -27,7 +27,7 @@ public class DeviceNativeImpl {
     private static String getDeviceInfo(String returnType, String device, String deviceModel, String fallback) {
         if (model == null) {
             try {
-                InputStreamReader isr = new InputStreamReader(AndroidNativeUtil.getActivity().getAssets().open(FILE_NAME), "UTF-16");
+                InputStreamReader isr = new InputStreamReader(AndroidNativeUtil.getActivity().getAssets().open(FILE_NAME), "UTF-8");
 
                 CSVParser parser = new CSVParser();
 
@@ -36,10 +36,10 @@ public class DeviceNativeImpl {
                         if (row[0].trim().length() > 0 && row[0].trim().charAt(1) == '"') {
                             row[0] = row[0].trim().substring(2, row[0].trim().length() - 1);
                         }
-                        if (row[2].equals(device) && row[3].equals(deviceModel)) {
+                        if (row[2].equals(device) || row[2].equals(deviceModel)) {
                             manufacturer = row[0];
                             name = row[1];
-                            model = row[3];
+                            model = row[2];
                             break;
                         }
                     }

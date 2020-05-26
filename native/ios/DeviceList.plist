@@ -247,6 +247,13 @@
             <key>name</key>
             <string>iPhone 11 Pro Max</string>
         </dict>
+        <key>iPhone12,8</key>
+        <dict>
+            <key>version</key>
+            <real>12.8</real>
+            <key>name</key>
+            <string>iPhone SE (2nd Gen)</string>
+        </dict>
         <key>iPod1,1</key>
         <dict>
             <key>version</key>
@@ -590,6 +597,28 @@
             <key>name</key>
             <string>iPad Pro 11-Inch (WiFi Only)</string>
         </dict>
+        <key>iPad8,10</key>
+        <dict>
+            <key>version</key>
+            <real>8.10</real>
+            <key>name</key>
+            <string>iPad Pro 11-Inch (Wi-Fi/Cellular - 2nd Gen)</string>
+        </dict>
+        <key>iPad8,11</key>
+        <dict>
+            <key>version</key>
+            <real>8.1</real>
+            <key>name</key>
+            <string>iPad Pro 12.9-Inch 1TB (Wi-Fi Only - 4th Gen)</string>
+        </dict>
+        <key>iPad8,12</key>
+        <dict>
+            <key>version</key>
+            <real>8.8</real>
+            <key>name</key>
+            <string>iPad Pro 12.9-Inch (Wi-Fi/Cell - 4th Gen)</string>
+        </dict>
+        <key>iPad11,1</key>
         <key>iPad8,2</key>
         <dict>
             <key>version</key>
@@ -639,7 +668,13 @@
             <key>name</key>
             <string>iPad Pro 12.9-Inch 1TB (WiFi/Cell - 3rd Gen)</string>
         </dict>
-        <key>iPad11,1</key>
+        <key>iPad8,9</key>
+        <dict>
+            <key>version</key>
+            <real>8.9</real>
+            <key>name</key>
+            <string>iPad Pro 11-Inch (Wi-Fi Only - 2nd Gen)</string>
+        </dict>
         <dict>
             <key>version</key>
             <real>11.1</real>
