@@ -607,18 +607,17 @@
         <key>iPad8,11</key>
         <dict>
             <key>version</key>
-            <real>8.1</real>
+            <real>8.11</real>
             <key>name</key>
             <string>iPad Pro 12.9-Inch 1TB (Wi-Fi Only - 4th Gen)</string>
         </dict>
         <key>iPad8,12</key>
         <dict>
             <key>version</key>
-            <real>8.8</real>
+            <real>8.12</real>
             <key>name</key>
             <string>iPad Pro 12.9-Inch (Wi-Fi/Cell - 4th Gen)</string>
         </dict>
-        <key>iPad11,1</key>
         <key>iPad8,2</key>
         <dict>
             <key>version</key>
@@ -675,6 +674,7 @@
             <key>name</key>
             <string>iPad Pro 11-Inch (Wi-Fi Only - 2nd Gen)</string>
         </dict>
+        <key>iPad11,1</key>
         <dict>
             <key>version</key>
             <real>11.1</real>
